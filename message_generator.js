@@ -4,8 +4,13 @@ const jokeRandomizer = {
     // Both arrays contain parts of some knock jokes (the parts that change)
     // For every who's there answer there is a corresponding puncline on the
     // same index in the _punchline array. 
-    _whosThereAnswer: ['Yah','Kenya','Dishes!'],
-    _punchLine: ['Naaah, bro, I prefer google.','Kenya feel the love tonight?', 'Dishes the Police come out with your hands up'],
+    _whosThereAnswer: ['Yah','Kenya','Dishes!','Woo','Mikey','Hike'],
+    _punchLine: ['Naaah, bro, I prefer google.',
+                 'Kenya feel the love tonight?', 
+                 'Dishes the Police come out with your hands up',
+                 'Don\'t get to excited this is just a knock knock joke',
+                 'Mikey isn\'t working, can you let me in? ',
+                 'I didn\'t know you liked Japanese poetry!'],
 
     // returns the answer array
     get whosThereAnswer(){
