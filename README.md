@@ -3,7 +3,7 @@
 ## What this project does:
 ---
 * Generate a random Knock Knock joke from a list of possible joke entries.
-* The jokes can be nonsensical due to the random nature of the generator.
+* The jokes can be nonsensical due to the random nature of the generator, or one of the actual jokes if the user chooses to view an actual knock kock instead of a completely random selection of joke fragments.
 * The project also includes a shell script that creates a command to call node message_generator.js
     * For simplicity I inluced the commnad name and the instruction set for calling it from within the project folder, but for added value I added the command to commands list with a more complex instrution set so that the command works from anywhere in the terminal.
         ```terminal
